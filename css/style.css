@@ -63,9 +63,8 @@ font family     font-family: 'Roboto', sans-serif;
   }
 
   .container {
-      height: 100vh;
-      background: url(/images/hero1.png);
-      background-size: cover;
+      height: 90vh;
+      width: 100%;
   }
   
 
@@ -279,5 +278,4 @@ button {
     justify-content: center;
     margin-bottom: 3%;
 }
-
 
