@@ -12,6 +12,11 @@ body, html {
     overflow-x: hidden;
 }
 
+.navbar-brand img {
+    width: 20%;
+}
+
+
 /* hero section */
 
 
