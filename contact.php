@@ -65,7 +65,7 @@
     </nav>
 
 <!-- hero section -->
-<section class="hero-image3">
+<section class="hero-image5">
 </section>
 <!-- end of hero section -->
 
@@ -80,16 +80,11 @@
                 <div class="text-dark">
                     <div class="card-body text-center">
                         <h4 class="card-title mb-3">
-                            Exciting Opportunities Await
+                            3D RENDERING SERVICES AND ARCHITECTURAL ANIMATION FOR DESIGNERS, ARCHITECTS, AND REAL ESTATE
                         </h4>
                         <p class="card-text">
-                            A career at Nunya Digital is truly a one-of-a-kind experience. It's more than working for a global community; it's an opportunity to be a part of something that impacts the world.
-                            We have a strong tradition of growing people who have demonstrated the ability to deliver excellent results in different ways. 
-                            The success of our company depends on every employee in the organization. Ultimately in our business, it is people who make the magic happen-with consumers, customers and the communities in which we work.
-                            We believe our company should be as diverse as the markets we serve and as inclusive as our brands. This diversity allows us to understand and connect to the needs of our consumers and our customers everywhere we operate and to continue to innovate in everything we do. 
-                            At Nunya Digital you have the opportunity to work on teams with people who have different backgrounds and ideas and who work in offices across the globe. We are all unified by our love for the Company and desire to add value and make a difference.
+                            Vrender Company has been in the 3D computer graphics industry for more than 17 years. Our team of professionals uses strategic digital innovations to create realistic animation and renderings of stunning 3D assets. We will bring your thoughts and ideas to life with 3D arts which are of the best quality. <br><br> Our options of 3D Walkthrough, VR and Virtual tours offer you views from any angle which gives you an amazingly realistic representation of an idea.
                         </p>
-                        <h5>Upload your CV below</h5>
                     </div>
                 </div>
             </div>
@@ -100,14 +95,57 @@
     
 </section>
 <!-- end -->
-<div class="container">
-    <div class="row">
-    <form class="btn btn-dark" action="upload.php" method="post" enctype="multipart/form-data">
-	<input type="file" name="file" />
-	<input type="submit" value="Upload" />
-	</form>
-    </div>
 
+
+<div class="container mt-5 text-center mb-5">
+    <h1>Contact Us</h1>
+    <form class="row g-3" action="contactform.php" method="post">
+
+
+
+  <div class="elem-group col-md-6">
+    <label class="form-label" for="name">Your Name</label>
+    <input class="form-control" type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+
+
+
+  <div class="elem-group col-md-6">
+    <label class="form-label" for="email">Your E-mail</label>
+    <input class="form-control" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+
+
+
+  <div class="elem-group">
+    <label class="form-label" for="department-selection">Choose Concerned Department</label>
+    <select class="form-control" id="department-selection" name="concerned_department" required>
+        <option value="">Select a Department</option>
+        <option value="billing">Billing</option>
+        <option value="marketing">Marketing</option>
+        <option value="technical support">Technical Support</option>
+    </select>
+  </div>
+
+
+
+  <div class="elem-group">
+    <label class="form-label" for="title">Reason For Contacting Us</label>
+    <input class="form-control" type="text" id="title" name="visitor_message" required placeholder="A question about my order">
+  </div>
+
+
+
+  <div class="elem-group col-md-12">
+    <label class="form-label" for="message">Write your message</label>
+    <textarea class="form-control" rows="3" id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  </div>
+
+
+
+  <button class="btn btn-dark" type="submit">Send Message</button>
+  <hr class="mb-4">
+</form>
 </div>
 
 

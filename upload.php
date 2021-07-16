@@ -21,7 +21,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Nunya Digital</a>
+            <a href="#" class="navbar-brand">Nunya Digital
+                
+            </a>
 
             <button class="navbar-toggler" 
             type="button" 
@@ -50,7 +52,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Us</a>
+                        <a href="contact.php" class="nav-link">Contact Us</a>
                     </li>
 
                     <li class="nav-item">
@@ -61,7 +63,6 @@
             </div>
         </div>
     </nav>
-
 <!-- hero section -->
 <section class="hero-image3">
 </section>
@@ -131,7 +132,7 @@
 
 
 <!-- footer -->
-<footer class="bg-light text-dark pt-5 pb-4">
+<footer class="bg-light text-dark pt-5">
     <div class="text-center text-md-left">
 <div class="row text-center text-md-left">
     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 paddingp">
