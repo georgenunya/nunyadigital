@@ -94,7 +94,7 @@
 </section>
 <!-- end -->
 
-<form action="upload.html" method="post" enctype="multipart/form-data">
+<form action="upload.php" method="post" enctype="multipart/form-data">
 	<input type="file" name="file" />
 	<input type="submit" value="Upload" />
 	</form>
