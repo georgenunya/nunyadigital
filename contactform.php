@@ -51,6 +51,9 @@ if($_POST) {
     else if($concerned_department == "marketing") {
         $recipient = "george@nunyagroup.com";
     }
+    else if($concerned_department == "download") {
+        $recipient = "george@nunyagroup.com";
+    }
     else if($concerned_department == "technical support") {
         $recipient = "george@nunyagroup.com";
     }

@@ -15,7 +15,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
     rel="stylesheet"
   />
-    <title>Contact Us</title>
+    <title>Motion Design</title>
 </head>
 <body>
 
@@ -57,9 +57,14 @@
           </nav>
     </header>
 
+<!-- hero section -->
+<section class="gif">
+</section>
+<!-- end of hero section -->
+
 
 <!-- 1st about paragraph section -->
-<section class="infosection p-3 paddingtop">
+<section class="infosection p-3">
     <div class="container">
         <div class="row text-center g-4">
 
@@ -68,13 +73,37 @@
             <div class="col-md">
                 <div class="text-dark">
                     <div class="card-body text-center">
-                        <h1 class="h1bottom">We’re here to help!</h1>
-                        <h4 class="card-title mb-3">
-                            Fill out our form with as much information as possible to ensure our team can help you in the best way possible.
+                        <h2 class="card-title mb-3">
+                            We collaborate with future thinking brands and agencies to develop multi-platform, moving stories. In short, we’re made for these challenging times.
+                        </h2>
+                        
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+
+    
+</section>
+<!-- end -->
+
+<!-- 1st about paragraph section -->
+<section class="infosection p-3">
+    <div class="container">
+        <div class="row text-center g-4">
+
+            <!-- about one -->
+
+            <div class="col-md">
+                <div class="text-dark">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-3">
+                            We are a creative agency for an ever changing world.
                         </h4>
                         <p class="card-text">
-                            <a href="privacy.html">See our privacy policy for how we use your data. </a>
+                            We’re a creative agency that utilises a unique mix of strategic brand thinking, motion design, CGI and production. This allows us to firstly, focus on what’s important to you and secondly, make it accessible to your audience. In other words, we amplify your message and keep your brand moving forward.
+
                         </p>
                     </div>
                 </div>
@@ -88,57 +117,53 @@
 <!-- end -->
 
 
-<div class="container mt-5 text-center mb-5">
-    <h1>Contact Us</h1>
-    <form class="row g-3" action="contactform.php" method="post">
 
-
-
-  <div class="elem-group col-md-6">
-    <label class="form-label" for="name">Your Name</label>
-    <input class="form-control" type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+<section class="fit">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/motion1.gif" class="d-block w-100 p-3" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/motion2.gif" class="d-block w-100 p-3" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/motion3.gif" class="d-block w-100 p-3" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="bi bi-arrow-bar-left" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="bi bi-arrow-bar-right" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
-
-
-  <div class="elem-group col-md-6">
-    <label class="form-label" for="email">Your E-mail</label>
-    <input class="form-control" type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-  </div>
+</section>
 
 
 
-  <div class="elem-group">
-    <label class="form-label" for="department-selection">Choose Concerned Department</label>
-    <select class="form-control" id="department-selection" name="concerned_department" required>
-        <option value="">Select a Department</option>
-        <option value="billing">Download</option>
-        <option value="billing">Billing</option>
-        <option value="marketing">Marketing</option>
-        <option value="technical support">Technical Support</option>
-    </select>
-  </div>
 
+<!-- cta -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center cta">
+            <h4>Find out what our team can do for you</h4>
+            <p>Any idea, big or small, we can make your dream become a reality
+</p>
+            <a href="contact.php" class="btn btn-dark">CONTACT US</a>
+        </div>
+    </div>
+</section>
+<!-- end -->
 
-
-  <div class="elem-group">
-    <label class="form-label" for="title">Reason For Contacting Us</label>
-    <input class="form-control" type="text" id="title" name="visitor_message" required placeholder="A question about my order">
-  </div>
-
-
-
-  <div class="elem-group col-md-12">
-    <label class="form-label" for="message">Write your message</label>
-    <textarea class="form-control" rows="3" id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
-  </div>
-
-
-
-  <button class="btn btn-dark" type="submit">Send Message</button>
-  <hr class="mb-4">
-</form>
-</div>
 
 
 

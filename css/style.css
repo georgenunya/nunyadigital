@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
 
 */
-.row, .container, .p-5 {
+.row, .container, .p-3 {
     
     font-family: 'Roboto', sans-serif;
 }
@@ -17,13 +17,18 @@ body, html {
     overflow-x: hidden;
 }
 
-.navbar-brand img {
-    width: 20%;
+.carousel-item {
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .nav-link {
     
     font-family: 'Roboto', sans-serif;
+    
     text-decoration: none;
     position: relative;
 }
@@ -49,9 +54,38 @@ body, html {
     color: #CC2E5D;
 }
 
+.footerborder {
+    border: solid whitesmoke 2px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    bottom: 0;
+}
+
+.paddingtop {
+    margin-top: 10rem;
+}
+
+.h1bottom {
+    padding-bottom: 2rem;
+}
+
+.banner {
+    margin-top: 2rem;
+    background: #29282b;
+    background: -webkit-linear-gradient(to right, #2a292b, #000000, #fdb99b);
+    background: linear-gradient(to right, #232224, #0f0f0f, #bd0404a6);
+  }
 
 /* hero section */
 
+.gif {
+    background-image: url(https://cdn.dribbble.com/users/4048081/screenshots/12201146/media/393af3a5c5fdeabe338fbe745a198551.gif);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .hero-image {
     background-image: url(/images/hero3.jpg);
@@ -80,8 +114,8 @@ body, html {
     position: relative;
 }
 
-.hero-image5 {
-    background-image: url(/images/hero5.jpg);
+.thankyou {
+    background-image: url(/images/thankyou.jpg);
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,12 +124,12 @@ body, html {
 }
 
 .hero-text {
-    background-color: rgba(116, 116, 116, 0.466);
+    background-color: rgba(44, 44, 44, 0.493);
     box-shadow: 0 20px 52px 0 rgb(29, 29, 29);
-    backdrop-filter: blur(3px) saturate(100%) contrast(45%) brightness(130%);
+    backdrop-filter: blur(1px) saturate(100%) contrast(45%) brightness(130%);
     -webkit-backdrop-filter: blur( 0.0px );
-    border-radius: 5px;
-    padding: 2.5rem;
+    border-radius: 20px;
+    padding: 2rem;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -106,16 +140,15 @@ body, html {
 
 .hero-text h1 {
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
 }
 
 .hero-text img {
-    width: 50%;
-    padding-bottom: 10px;
+    width: 45%;
 }
 
 /* info section */ 
